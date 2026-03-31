@@ -1,0 +1,2 @@
+# don't upload any images with nsfw stuff
+/lua/bearvim/images/*-priv.lua

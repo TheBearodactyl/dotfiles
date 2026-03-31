@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "runtime": {
+    "version": "Lua 5.3",
+    "path": [
+      "?.lua",
+      "?/init.lua",
+      "/usr/share/awesome/lib/?.lua",
+      "/usr/share/awesome/lib/?/init.lua"
+    ]
+  },
+  "workspace": {
+    "library": ["/usr/share/awesome/lib"],
+    "checkThirdParty": false,
+    "maxPreload": 2000,
+    "preloadFileSize": 1000
+  },
+  "diagnostics": {
+    "enable": true,
+    "globals": [
+      "awesome",
+      "client",
+      "screen",
+      "mouse",
+      "root",
+      "tag",
+      "button",
+      "dbus",
+      "drawable",
+      "drawin",
+      "key",
+      "selection",
+      "timer",
+      "window"
+    ]
+  },
+  "hint": {
+    "enable": true,
+    "setType": true,
+    "paramType": true,
+    "arrayIndex": "Disable"
+  },
+  "completion": {
+    "callSnippet": "Replace"
+  }
+}
